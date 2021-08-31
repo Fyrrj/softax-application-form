@@ -1,0 +1,54 @@
+.companyBranch {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin-top: 120px;
+  z-index: 1410;
+}
+
+.companyBranch__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 120px;
+  width: 800px;
+}
+
+.info__h1 {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.info__p {
+  font-size: 1.8rem;
+  color: #009fdc;
+  margin-left: 4px;
+}
+
+@media only screen and (max-width: 830px) {
+  .companyBranch {
+    margin-top: 20px;
+  }
+
+  .companyBranch__cards {
+    flex-direction: column;
+    width: 375px;
+    margin-top: 20px;
+  }
+
+  .info__h1 {
+    font-size: 2rem;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .info__p {
+    font-size: 1.6rem;
+    padding: 0 20px;
+    text-align: center;
+  }
+}

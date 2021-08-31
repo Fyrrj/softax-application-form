@@ -1,0 +1,50 @@
+.summaryFormView {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #1b203a;
+  border: 2px solid #009fdc;
+  margin-top: 200px;
+  -webkit-box-shadow: 1px 1px 11px -1px #009fdc;
+  box-shadow: 1px 1px 11px -1px #009fdc;
+  border-radius: 2px;
+  z-index: 1410;
+}
+
+.summaryFormView__h1 {
+  color: #009fdc;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-size: 2.2rem;
+}
+
+.summaryFormView__h2 {
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 40px;
+  font-size: 1.8rem;
+  border-bottom: 2px dotted #009fdc;
+  padding-bottom: 10px;
+}
+
+.summaryFormView__h3 {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+.summaryFormView__p {
+  color: #009fdc;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.summaryFormView__p--last {
+  margin-bottom: 20px;
+}
+
+.fas.fa-clipboard-check {
+  color: #009fdc;
+}
